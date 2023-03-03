@@ -1,8 +1,8 @@
 <?php
 
-namespace PatricPoba\MtnMomo;
+namespace Ayarigab\JayPay;
 
-use PatricPoba\MtnMomo\Exceptions\MtnMomoException;
+use Ayarigab\JayPay\Exceptions\MtnMomoException;
 
 class MtnRemittance extends MtnMomo 
 {
