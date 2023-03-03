@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `mtn-momo-api-php` will be documented in this file
+All notable changes to `jaypay` will be documented in this file
 
 ## 1.0.0 - 201X-XX-XX
 

@@ -8,7 +8,7 @@ return [
   
 
     // Momo API transaction currency code.
-    'currency'          => env('MTN_MOMO_CURRENCY', 'EUR'),
+    'currency'          => env('MTN_MOMO_CURRENCY', 'GHC'),
   
 
     'environment'       => env('MTN_MOMO_ENVIRONMENT', 'sandbox'),

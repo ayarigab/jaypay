@@ -1,8 +1,8 @@
 <?php
 
-namespace PatricPoba\MtnMomo\Http;
+namespace Ayarigab\JayPay\Http;
 
-use PatricPoba\MtnMomo\Utilities\AttributesMassAssignable;
+use Ayarigab\JayPay\Utilities\AttributesMassAssignable;
   
 
 class ApiResponse

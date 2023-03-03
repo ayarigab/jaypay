@@ -1,11 +1,11 @@
 #!/usr/bin/php
 <?php
-namespace PatricPoba\MtnMomo;
+namespace Ayarigab\JayPay;
 
 require_once 'vendor/autoload.php';
 
-use PatricPoba\MtnMomo\Http\GuzzleClient;
-use PatricPoba\MtnMomo\Utilities\Helpers;
+use Ayarigab\JayPay\Http\GuzzleClient;
+use Ayarigab\JayPay\Utilities\Helpers;
 
   
 class SandboxUserProvision

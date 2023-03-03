@@ -1,14 +1,14 @@
 <?php
 
-namespace PatricPoba\MtnMomo;
+namespace Ayarigab\JayPay;
   
 use GuzzleHttp\ClientInterface;
-use PatricPoba\MtnMomo\MtnConfig;
-use PatricPoba\MtnMomo\Http\GuzzleClient;
-use PatricPoba\MtnMomo\Utilities\Helpers;
-use PatricPoba\MtnMomo\Exceptions\MtnMomoException;
+use Ayarigab\JayPay\MtnConfig;
+use Ayarigab\JayPay\Http\GuzzleClient;
+use Ayarigab\JayPay\Utilities\Helpers;
+use Ayarigab\JayPay\Exceptions\MtnMomoException;
 
-abstract class MtnMomo extends GuzzleClient
+abstract class JayPay extends GuzzleClient
 {
     use Helpers;
     

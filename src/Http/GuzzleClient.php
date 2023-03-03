@@ -1,10 +1,10 @@
 <?php
  
-namespace PatricPoba\MtnMomo\Http;
+namespace Ayarigab\JayPay\Http;
 
 use GuzzleHttp\Client; 
 use GuzzleHttp\ClientInterface; 
-use PatricPoba\MtnMomo\Exceptions\MtnMomoException;
+use Ayarigab\JayPay\Exceptions\MtnMomoException;
 
 class GuzzleClient implements HttpClientInterface
 {
@@ -34,7 +34,7 @@ class GuzzleClient implements HttpClientInterface
      * @param [type] $url
      * @param array $params
      * @param array $headers
-     * @return \PatricPoba\MtnMomo\Http\Response
+     * @return \Ayarigab\JayPay\Http\Response
      */
     public function request($method, $url, $params = [], $headers = [])
     {
@@ -48,7 +48,7 @@ class GuzzleClient implements HttpClientInterface
                 'json' => $params
             ]);
  
-        } catch (\Exception $exception) {
+        } catch (\Throwable $exception) {
             throw new MtnMomoException("HTTP request failed: {$url} " . $exception->getMessage(), null, $exception); 
         }
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace PatricPoba\MtnMomo;
+namespace Ayarigab\JayPay;
 
 use PatricPoba\MtnMomo\MtnCollection;
 use PatricPoba\MtnMomo\MtnRemittance;
 use Illuminate\Support\ServiceProvider;
 use PatricPoba\MtnMomo\MtnDisbursement;
 
-class MtnMomoServiceProvider extends ServiceProvider
+class JayPayServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

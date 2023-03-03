@@ -1,6 +1,6 @@
 <?php
 
-namespace PatricPoba\MtnMomo\Http;
+namespace Ayarigab\JayPay\Http;
 
 interface HttpClientInterface
 {
@@ -10,7 +10,7 @@ interface HttpClientInterface
      * @param array   $params  KV pairs for parameters. Can be nested for arrays and hashes 
      * @param array   $headers Headers to be used in the request (full strings, not KV pairs)
      * 
-     * @throws \PatricPoba\MtnMomo\MtnMomoException
+     * @throws \Ayarigab\JayPay\MtnMomoException
      * @return array An array whose first element is raw request body, second
      *    element is HTTP status code and third array of HTTP headers.
      */

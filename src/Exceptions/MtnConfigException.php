@@ -1,6 +1,6 @@
 <?php
 
-namespace PatricPoba\MtnMomo\Exceptions;
+namespace Ayarigab\JayPay\Exceptions;
 
 class MtnConfigException extends MtnMomoException 
 {

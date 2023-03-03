@@ -1,8 +1,8 @@
 <?php
 
-namespace PatricPoba\MtnMomo\Exceptions;
+namespace Ayarigab\JayPay\Exceptions;
 
-class MtnMomoException extends \Exception 
+class MtnMomoException extends \Throwable 
 {
     
 }
